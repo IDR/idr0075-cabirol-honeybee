@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+  <Image ID="Image:0" Name="MBLipOverviewBee7">
+    <Pixels DimensionOrder="XYCZT" ID="Pixels:0:0" SizeC="1" SizeT="1" SizeX="512" SizeY="512" SizeZ="96" Type="uint16">
+      <Channel Color="0" ID="Channel:0" Name="0" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="96">
+        <UUID FileName="MBLipOverviewBee7.tif">urn:uuid:73457dba-177a-11ea-a628-720002133a60</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+</OME>
