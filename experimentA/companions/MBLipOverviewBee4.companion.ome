@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
   <Image ID="Image:0" Name="MBLipOverviewBee4">
-    <Pixels DimensionOrder="XYCZT" ID="Pixels:0:0" SizeC="1" SizeT="1" SizeX="512" SizeY="512" SizeZ="90" Type="uint16">
-      <Channel Color="0" ID="Channel:0" Name="0" SamplesPerPixel="1"/>
+    <Pixels DimensionOrder="XYCZT" ID="Pixels:0:0" PhysicalSizeX="1.031" PhysicalSizeY="1.031" PhysicalSizeZ="5" SizeC="1" SizeT="1" SizeX="512" SizeY="512" SizeZ="90" Type="uint16">
+      <Channel Color="0" ID="Channel:0" Name="Alexa488" SamplesPerPixel="1"/>
       <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="90">
         <UUID FileName="MBLipOverviewBee4.tif">urn:uuid:17638f32-177a-11ea-9592-720002133a60</UUID>
       </TiffData>

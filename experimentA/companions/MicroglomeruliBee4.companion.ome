@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
   <Image ID="Image:0" Name="MicroglomeruliBee4">
-    <Pixels DimensionOrder="XYCZT" ID="Pixels:0:0" SizeC="1" SizeT="1" SizeX="512" SizeY="512" SizeZ="101" Type="uint16">
+    <Pixels DimensionOrder="XYCZT" ID="Pixels:0:0" PhysicalSizeX="0.3438" PhysicalSizeY="0.3438" PhysicalSizeZ="0.5" SizeC="1" SizeT="1" SizeX="512" SizeY="512" SizeZ="101" Type="uint16">
       <Channel Color="0" ID="Channel:0" Name="0" SamplesPerPixel="1"/>
       <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="101">
         <UUID FileName="MicroglomeruliBee4.tif">urn:uuid:d2735ca2-177b-11ea-9da1-720002133a60</UUID>
