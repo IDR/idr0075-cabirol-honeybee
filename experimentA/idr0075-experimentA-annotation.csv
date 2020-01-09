@@ -1,0 +1,21 @@
+Dataset Name,Image Name,Characteristics [Organism],Term Source 1 REF,Term Source 1 Accession,Characteristics [Organism Part],Term Source 2 REF,Term Source 2 Accession,Assay Name,Comment [Image File Type],Comment [Image Stack Voxel Size],Channels,Processed Data File
+Bee 1,MBLipOverviewBee1,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx overview,raw image stack,1.031x1.031x5 micron,"Ch:Alexa488, SYNORF1 labelled",
+Bee 1,MicroglomeruliBee1,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx lip subregion,raw image stack,0.3438x0.3438x0.5 micron,,MGcoordinatesBee1
+Bee 2,MBLipOverviewBee2,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx overview,raw image stack,1.031x1.031x5 micron,"Ch:Alexa488, SYNORF1 labelled",
+Bee 2,MicroglomeruliBee2,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx lip subregion,raw image stack,0.3438x0.3438x0.5 micron,,MGcoordinatesBee2
+Bee 3,MBLipOverviewBee3,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx overview,raw image stack,1.031x1.031x5 micron,"Ch:Alexa488, SYNORF1 labelled",
+Bee 3,MicroglomeruliBee3,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx lip subregion,raw image stack,0.3438x0.3438x0.5 micron,,MGcoordinatesBee3
+Bee 4,MBLipOverviewBee4,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx overview,raw image stack,1.031x1.031x5 micron,"Ch:Alexa488, SYNORF1 labelled",
+Bee 4,MicroglomeruliBee4,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx lip subregion,raw image stack,0.3438x0.3438x0.5 micron,,MGcoordinatesBee4
+Bee 5,MBLipOverviewBee5,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx overview,raw image stack,1.031x1.031x5 micron,"Ch:Alexa488, SYNORF1 labelled",
+Bee 5,MicroglomeruliBee5,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx lip subregion,raw image stack,0.3438x0.3438x0.5 micron,,MGcoordinatesBee5
+Bee 6,MBLipOverviewBee6,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx overview,raw image stack,1.031x1.031x5 micron,"Ch:Alexa488, SYNORF1 labelled",
+Bee 6,MicroglomeruliBee6,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx lip subregion,raw image stack,0.3438x0.3438x0.5 micron,,MGcoordinatesBee6
+Bee 7,MBLipOverviewBee7,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx overview,raw image stack,1.031x1.031x5 micron,"Ch:Alexa488, SYNORF1 labelled",
+Bee 7,MicroglomeruliBee7,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx lip subregion,raw image stack,0.3438x0.3438x0.5 micron,,MGcoordinatesBee7
+Bee 8,MBLipOverviewBee8,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx overview,raw image stack,1.031x1.031x5 micron,"Ch:Alexa488, SYNORF1 labelled",
+Bee 8,MicroglomeruliBee8,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx lip subregion,raw image stack,0.3438x0.3438x0.5 micron,,MGcoordinatesBee8
+Bee 9,MBLipOverviewBee9,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx overview,raw image stack,1.031x1.031x5 micron,"Ch:Alexa488, SYNORF1 labelled",
+Bee 9,MicroglomeruliBee9,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx lip subregion,raw image stack,0.3438x0.3438x0.5 micron,,MGcoordinatesBee9
+Bee 10,MBLipOverviewBee10,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx overview,raw image stack,1.031x1.031x5 micron,"Ch:Alexa488, SYNORF1 labelled",
+Bee 10,MicroglomeruliBee10,Apis mellifera,NCBITaxon,7460,mushroom body,UBERON,UBERON_0001058,MB calyx lip subregion,raw image stack,0.3438x0.3438x0.5 micron,,MGcoordinatesBee10
