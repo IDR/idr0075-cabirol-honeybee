@@ -25,6 +25,10 @@ columns:
     clientname: Organism Part
     include: yes
 
+  - name: Characteristics [Age]
+    clientname: Age
+    include: yes
+
 
   ######################################################################
   # mapr groups
@@ -37,9 +41,55 @@ columns:
           clientname: Organism
           include: yes
 
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody
+      columns:
+        - name: Experimental Condition [Primary Antibody]
+          clientname: Primary Antibody
+          include: yes
+          omitempty: no
+        - name: Primary Antibody Identifier
+          clientname: Primary Antibody Identifier
+          include: yes
+          omitempty: no
+        - name: Primary Antibody Identifier
+          clientname: Antibody Identifier URL
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
+          include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody
+      columns:
+        - name: Experimental Condition [Secondary Antibody]
+          clientname: Secondary Antibody
+          include: yes
+          omitempty: no
+        - name: Secondary Antibody Identifier
+          clientname: Secondary Antibody Identifier
+          include: yes
+          omitempty: no
+        - name: Secondary Antibody Identifier
+          clientname: Antibody Identifier URL
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
+          include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
+        - name: Primary Antibody Dilution
+          clientname: Primary Antibody Dilution
+          include: yes
+        - name: Secondary Antibody Dilution
+          clientname: Secondary Antibody Dilution
+          include: yes
+
+
 advanced:
   ignore_missing_primary_key: yes
   primary_group_keys:
     - namespace: openmicroscopy.org/mapr/organism
       keys:
         - Organism
+    - namespace: openmicroscopy.org/mapr/antibody
+      keys:
+        - Antibody Identifier
