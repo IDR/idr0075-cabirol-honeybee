@@ -45,30 +45,14 @@ columns:
       namespace: openmicroscopy.org/mapr/antibody
       columns:
         - name: Experimental Condition [Primary Antibody]
-          clientname: Primary Antibody
+          clientname: Antibody
           include: yes
           omitempty: no
         - name: Primary Antibody Identifier
-          clientname: Primary Antibody Identifier
+          clientname: Antibody Identifier
           include: yes
           omitempty: no
         - name: Primary Antibody Identifier
-          clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
-          include: yes
-
-  - group:
-      namespace: openmicroscopy.org/mapr/antibody
-      columns:
-        - name: Experimental Condition [Secondary Antibody]
-          clientname: Secondary Antibody
-          include: yes
-          omitempty: no
-        - name: Secondary Antibody Identifier
-          clientname: Secondary Antibody Identifier
-          include: yes
-          omitempty: no
-        - name: Secondary Antibody Identifier
           clientname: Antibody Identifier URL
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: yes
@@ -82,7 +66,14 @@ columns:
         - name: Secondary Antibody Dilution
           clientname: Secondary Antibody Dilution
           include: yes
-
+        - name: Experimental Condition [Secondary Antibody]
+          clientname: Secondary Antibody
+          include: yes
+          omitempty: no
+        - name: Secondary Antibody Identifier
+          clientname: Secondary Antibody Identifier
+          include: yes
+          omitempty: no
 
 advanced:
   ignore_missing_primary_key: yes
