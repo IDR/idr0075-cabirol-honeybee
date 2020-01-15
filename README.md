@@ -1,15 +1,7 @@
-## Import Status
+## Automated quantification of synaptic boutons reveals their 3D distribution in the honey bee mushroom body
 
-### idr-testing (if applicable)
-| Task | Duration | Checked |
-| :----: |:----:| :----:|
-| Images| 1 hour | X |
-| Thumbnails | 1 hour | X |
-| Annotations | 10 min | X |
+### Authors
+Cabirol A, Haase A
 
-### idr-next
-| Task | Duration | Checked |
-| :----: |:----:| :----:|
-| Images| -- | -- |
-| Thumbnails | -- | -- |
-| Annotations | -- | -- |
+### Description
+To study the spatial distribution of synaptic complexes called microglomeruli in the mushroom body neuropils of the honeybee brain, those structures where imaged by two-photon microscopy. A data analysis method was developed to automatically obtain the loci of those structures from large volume samples allowing to analyse their 3D density distribution. 
