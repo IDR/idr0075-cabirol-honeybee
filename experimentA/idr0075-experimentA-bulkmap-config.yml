@@ -63,15 +63,17 @@ columns:
         - name: Primary Antibody Dilution
           clientname: Primary Antibody Dilution
           include: yes
-        - name: Secondary Antibody Dilution
-          clientname: Secondary Antibody Dilution
-          include: yes
+          omitempty: no
         - name: Experimental Condition [Secondary Antibody]
           clientname: Secondary Antibody
           include: yes
           omitempty: no
         - name: Secondary Antibody Identifier
           clientname: Secondary Antibody Identifier
+          include: yes
+          omitempty: no
+        - name: Secondary Antibody Dilution
+          clientname: Secondary Antibody Dilution
           include: yes
           omitempty: no
 
