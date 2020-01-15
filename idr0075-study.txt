@@ -1,0 +1,97 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.				
+				
+# STUDY DESCRIPTION SECTION				
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details				
+				
+Comment[IDR Study Accession]	idr0075			
+Study Title	Automated quantification of synaptic boutons reveals their 3D distribution in the honey bee mushroom body			
+Study Type	imaging method			
+Study Type Term Source REF	FBbi			
+Study Type Term Accession	00000222			
+Study Description	Synaptic boutons are highly plastic structures undergoing experience-dependent changes in their number, volume, and shape. Their plasticity has been intensively studied in the insect mushroom bodies by manually counting the number of boutons in small regions of interest and extrapolating this number to the volume of the mushroom body neuropil. Here we extend this analysis to the synaptic bouton distribution within a larger subregion of the mushroom body olfactory neuropil of honey bees (Apis mellifera). This required the development of an automated method combining two-photon imaging with advanced image post-processing and multiple threshold segmentation. The method was first validated in subregions of the mushroom body olfactory and visual neuropils. Further analyses in the olfactory neuropil suggested that previous studies overestimated the number of synaptic boutons. As a reason for that, we identified boundaries effects in the small volume samples. The application of the automated analysis to larger volumes of the mushroom body olfactory neuropil revealed a corrected average density of synaptic boutons and, for the first time, their 3D spatial distribution. This distribution exhibited a considerable heterogeneity. This additional information on the synaptic bouton distribution provides the basis for future studies on brain development, symmetry, and plasticity.			
+Study Organism	Apis mellifera			
+Study Organism Term Source REF	NCBITaxon			
+Study Organism Term Accession	7460			
+Study Experiments Number	1			
+Study External URL	
+Study BioImage Archive Accession			
+Study Public Release Date				
+				
+# Study Publication				
+Study PubMed ID	31852957				
+Study Publication Title	Automated quantification of synaptic boutons reveals their 3D distribution in the honey bee mushroom body			
+Study Author List	Cabirol A, Haase A			
+Study PMC ID	PMC6920473				
+Study DOI	https://doi.org/10.1038/s41598-019-55974-2			
+				
+# Study Contacts				
+Study Person Last Name	Haase			
+Study Person First Name	Albrecht			
+Study Person Email	albrecht.haase@unitn.it			
+Study Person Address	University of Trento, piazza Manifattura 1, 38068 Rovereto, Italy		Study Person ORCID	0000-0002-8324-0047			
+Study Person Roles	submitter			
+				
+# Study License and Data DOI				
+Study License	CC-BY 4.0			
+Study License URL	https://creativecommons.org/licenses/by/4.0/			
+Study Copyright	Amelie Cabirol, Albrecht Haase		
+Study Data Publisher	University of Dundee			
+Study Data DOI				
+				
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
+				
+# EXPERIMENT SECTION				
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment.				
+				
+Experiment Number	1			
+Comment[IDR Experiment Name]	idr0075-cabirol-honeybee/experimentA	
+Experiment Sample Type	tissue		
+Experiment Description	To study the spatial distribution of synaptic complexes called microglomeruli in the mushroom body neuropils of the honeybee brain, those structures where imaged by two-photon microscopy. A data analysis method was developed to automatically obtain the loci of those structures from large volume samples allowing to analyse their 3D density distribution.		
+Experiment Size	5D Images: 20	Average Image Dimension (XYZCT): 512 x 512 x 100 x 1 Total Tb: 0.001	# fill in any values you know	
+Experiment Example Images				
+Experiment Imaging Method	two-photon laser scanning microscopy			
+Experiment Imaging Method Term Source REF	Fbbi			
+Experiment Imaging Method Term Accession	FBbi_00000254			
+Experiment Comments				
+				
+# assay files				
+Experiment Assay File	idr0075-experimentB-assays			
+Experiment Assay File Format	tab-delimited text			
+Assay Experimental Conditions			
+Assay Experimental Conditions Term Source REF			
+Assay Experimental Conditions Term Accession				
+Quality Control Description		
+				
+# Protocols				
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol
+Protocol Type Term Source REF	EFO	EFO		
+Protocol Type Term Accession	EFO_0003789	EFO_0003969		
+Protocol Description	Honeybees where reared to the age of 7 days in complete darkness, then sacrificed. Details in http://dx.doi.org/10.1101/589770 Materials and methods: Animals. Brains were extracted and immunostained with Alexa-488 using SYNORF1 antibodies and cleared methyl salicylate. Details in http://dx.doi.org/10.1101/589770 Materials and methods: Immunostaining of synapsin in whole-mount brains. Brains where imaged with a two-photon microscope (Bruker Ultima IV), voxel size MB calyx overview: (1.031x1.031x5)micron,  voxel size MB calyx overview: (0.3438x0.3438x0.5) micron, Details in http://dx.doi.org/10.1101/589770 Materials and methods: Image acquisition. 3D Loci of the synaptic complexes called microglomeruli were obtained by a multi-threshold segmentation protocol developed for this purpose. Details in http://dx.doi.org/10.1101/589770 Materials and methods: Volume reconstruction of the MB lip, Image processing for the quantification of microglomeruli, Quantification of microglomeruli in ROIs, Correction for the elliptic image of the microglomeruli. 
+				
+# Phenotypes				
+Phenotype Name				
+Phenotype Description				
+Phenotype Score Type				
+Phenotype Term Source REF	CMPO			
+Phenotype Term Name			
+Phenotype Term Accession			 	
+				
+				
+# Feature Level Data Files (give individual file details unless there is one file per well)				
+Feature Level Data File Name				
+Feature Level Data File Format				
+Feature Level Data File Description				
+Feature Level Data Column Name			
+Feature Level Data Column Description				
+				
+#  Processed Data Files 				
+Processed Data File Name	10 files: MGcoordinatesBee1 to MGcoordinatesBee10			
+Processed Data File Format	xlsx			
+Processed Data File Description	Data show the central coordinates of each individual microglomerulus in the image volume 			
+Processed Data Column Name	X	Y	Z	
+Processed Data Column Type	location	location	location	
+Processed Data Column Annotation Level					
+Processed Data Column Description	location X [micron]	location Y [micron]	location Z [micron]	
+Processed Data Column Link To Assay File	
