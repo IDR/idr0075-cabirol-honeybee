@@ -24,8 +24,7 @@ each point. Adjust the x,y,z pixel sizes in the script!
 
 Usage: python create_rois.py [path to coordinates.csv] [Image ID]
 
-Environment variables OMERO_USER, OMERO_PASSWORD, OMERO_HOST and OMERO_PORT
-are not necessary but are taken into account if set.
+Set the environment variables OMERO_USER, OMERO_PASSWORD, OMERO_HOST.
           ''')
     sys.exit(1)
 
@@ -83,8 +82,8 @@ def calc_pos(x, y, z):
 host = os.environ.get('OMERO_HOST', 'localhost')
 port = int(os.environ.get('OMERO_PORT', '4064'))
 
-conn = BlitzGateway(os.environ.get('OMERO_USER', 'public'),
-                    os.environ.get('OMERO_PASSWORD', 'public'),
+conn = BlitzGateway(os.environ.get('OMERO_USER', 'NA'),
+                    os.environ.get('OMERO_PASSWORD', 'NA'),
                     host=host, port=port)
 conn.connect()
 
