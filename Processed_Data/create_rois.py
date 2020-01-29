@@ -91,13 +91,11 @@ us = conn.getUpdateService()
 img = conn.getObject("Image", int(image_id))
 
 df = pandas.read_csv(csv_file, header=None)
-count = 0
 total = df.size / 3
 for index, row in df.iterrows():
   x, y, z = calc_pos(row[0], row[1], row[2])
   add_point(us, img, x, y, z)
-  count += 1
-  print("{}/{} done".format(count, total))
+  print("{}/{} done".format((index+1), total))
 
 conn.close()
 
