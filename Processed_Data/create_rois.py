@@ -64,16 +64,16 @@ def calc_pos(x, y, z):
   Returns:
   x, y (pixels), z (z plane index) (tuple)
   """
-  x_pix = x / x_size
+  x_pix = round(x / x_size)
   if x_pix >= x_max:
     raise Exception("x coordinate out of bounds")
 
-  y_pix = y / y_size
+  y_pix = round(y / y_size)
   if y_pix >= y_max:
     raise Exception("y coordinate out of bounds")
 
-  z_index = int(float(z) / z_size)
-  if z_index < 0 or z_index >= z_planes:
+  z_index = round(z / z_size)
+  if z_index >= z_planes:
     raise Exception("z_index out of bounds")
 
   return x_pix, y_pix, z_index
