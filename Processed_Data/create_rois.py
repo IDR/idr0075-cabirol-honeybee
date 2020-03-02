@@ -24,10 +24,10 @@ a = 255
 
 
 def printusage():
-    print ('''
+    print('''
 Takes a csv file with no header and three columns where each
 row[0] = x, row[1] = y and row[2] = z are coordinates of a point
-(in micrometers). Converts x, y to pixel coordinates and z to 
+(in micrometers). Converts x, y to pixel coordinates and z to
 z plane indices and creates a point ROI on the given image for
 each point. Adjust the x,y,z pixel sizes in the script!
 
@@ -70,15 +70,15 @@ def calc_pos(x, y, z):
     """
     x_pix = round(x / x_size)
     if x_pix >= x_max:
-      raise Exception("x coordinate out of bounds")
+        raise Exception("x coordinate out of bounds")
 
     y_pix = round(y / y_size)
     if y_pix >= y_max:
-      raise Exception("y coordinate out of bounds")
+        raise Exception("y coordinate out of bounds")
 
     z_index = round(z / z_size)
     if z_index >= z_planes:
-      raise Exception("z_index out of bounds")
+        raise Exception("z_index out of bounds")
 
     return x_pix, y_pix, z_index
 
