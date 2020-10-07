@@ -33,7 +33,7 @@ Study Person Address	University of Trento, piazza Manifattura 1, 38068 Rovereto,
 Study Person Roles	submitter			
 				
 # Study License and Data DOI				
-Study License	CC-BY 4.0			
+Study License	CC BY 4.0			
 Study License URL	https://creativecommons.org/licenses/by/4.0/			
 Study Copyright	Amelie Cabirol, Albrecht Haase		
 Study Data Publisher	University of Dundee			
